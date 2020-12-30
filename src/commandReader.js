@@ -1,5 +1,4 @@
 const { prefix } = require('./config.json');
-const { list: helpList } = require('./help.json')
 const splitargs = require('splitargs');
 
 class Command {
