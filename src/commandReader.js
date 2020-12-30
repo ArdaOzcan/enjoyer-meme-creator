@@ -4,7 +4,6 @@ const splitargs = require('splitargs');
 class Command {
     constructor(message) {
         this.args = splitargs(message.content)
-        console.log(this.args)
         this.msg = message
         if (this.args.length != 0) {
             if (this.args[0].startsWith(prefix))
@@ -26,12 +25,10 @@ module.exports = class CommandReader {
     }
 
     executeCommand(cmd) {
-        console.log(this.commands)
         try {
             this.commands.get(cmd.name).execute(cmd);
         } catch (error) {
             console.log("Unknown command: " + cmd.name);
-            console.log(error)
         }
     }
 }
