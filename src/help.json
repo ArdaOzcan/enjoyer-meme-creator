@@ -1,6 +1,0 @@
-{
-    "list": {
-        "!help": "Send this message",
-        "!create": "Creates enjoyer memes. Two positional arguments: *firstText*, *secondText*"
-    }
-}
