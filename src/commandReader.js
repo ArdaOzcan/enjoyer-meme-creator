@@ -30,7 +30,7 @@ module.exports = class CommandReader {
                     secondMaxWidth: 130
                 };
 
-                let imgRaw = "private/empty.png";
+                let imgRaw = "template/empty.png";
                 let imgExported = "out/out.png";
                 var loadedImage;
 
