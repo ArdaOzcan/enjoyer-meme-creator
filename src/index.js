@@ -1,6 +1,5 @@
 const discord = require('discord.js')
 const CommandReader = require("./commandReader")
-const dotenv = require('dotenv');
 const fs = require('fs');
 
 const client = new discord.Client()
@@ -24,5 +23,4 @@ client.on('message', message => {
     cmdReader.read(message)
 })
 
-dotenv.config();
 client.login(process.env.DC_BOT_TOKEN)

@@ -11,7 +11,6 @@
     "license": "ISC",
     "dependencies": {
         "discord.js": "^12.3.1",
-        "dotenv": "^8.2.0",
         "jimp": "^0.16.1",
         "splitargs": "0.0.7"
     }

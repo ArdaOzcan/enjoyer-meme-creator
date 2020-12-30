@@ -34,19 +34,5 @@ module.exports = class CommandReader {
             console.log("Unknown command: " + cmd.name);
             console.log(error)
         }
-        // switch (cmd.name) {
-        //     case "create":
-        //         execute(cmd);
-        //         break;
-        //     case "help":
-        //         const keys = Object.keys(helpList)
-        //         const values = Object.values(helpList)
-        //         for (let index = 0; index < keys.length; index++) {
-        //             const key = keys[index];
-        //             const value = values[index];
-        //             cmd.textChannel.send(`>>> **${key}** : ${value}`)
-        //         }
-        //         break;
-        // }
     }
 }
